@@ -330,4 +330,15 @@ My education has been driven primarily by curiosity, experimentation, and long-t
 
 Instead of following predefined learning paths, I have focused on understanding systems by building projects, reading technical documentation, and studying the underlying concepts behind software and computer systems.
 
-Over time, this learning has included:
+Over time, this learning has included Linux internals, networking, cryptography, communication protocols, and software architecture.
+
+---
+
+## Contact
+Every project in this portfolio started with a conversation between a question and an idea.
+Perhaps the next one starts with a conversation.
+
+- GitHub: https://www.github.com/adolfmacro
+- Email: m4nikamran@gmail.com
+- WebPage: https://adolfmacro.github.io
+**Perhaps code was never the destination—only the language I used to understand the questions.**
