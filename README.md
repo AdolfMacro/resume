@@ -1,344 +1,509 @@
+<div align="center">
+
 # Mani Kamran
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=700&lines=Independent+Developer;Cybersecurity+Enthusiast;Building+to+Understand+Systems" />
+### `Python` · `Linux` · `Networking` · `Security`
+
+**Independent Developer · Systems Builder · Technical Explorer**
+
+<p>
+  <a href="https://github.com/AdolfMacro">
+    <img src="https://img.shields.io/badge/GitHub-AdolfMacro-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/manikamran/">
+    <img src="https://img.shields.io/badge/LinkedIn-Mani%20Kamran-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <img src="https://img.shields.io/badge/Location-Yerevan%2C%20Armenia-00B87A?style=for-the-badge" alt="Location">
 </p>
 
-<p align="center">
-  <a href="https://github.com/adolfmacro">
-    <img src="https://img.shields.io/badge/GitHub-AdolfMacro-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://adolfmacro.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Online-00ff99?style=for-the-badge&logo=googlechrome" />
-  </a>
+</div>
+
+---
+
+## `01` — Who I Am
+
+I'm an **independent developer and technical builder** focused on understanding systems by building them.
+
+I like taking technical questions that are difficult to see from the outside and turning them into something **observable, testable, and understandable**.
+
+> **Build it. Observe it. Understand it. Improve it.**
+
+My main areas of interest are:
+
+| Area                | Focus                                                             |
+| ------------------- | ----------------------------------------------------------------- |
+| 🐍 **Python**       | Automation, tooling, data processing, modular applications        |
+| 🐧 **Linux**        | Systems, processes, permissions, networking, CLI environments     |
+| 🌐 **Networking**   | TCP/IP, sockets, discovery, packet capture, traffic analysis      |
+| 🔐 **Security**     | Network security, secure communication, security-oriented tooling |
+| ⚙️ **Architecture** | Modular systems, pipelines, providers, separation of concerns     |
+| 🧩 **Data**         | Collection, validation, processing, structured storage            |
+
+---
+
+# `02` — Technical Landscape
+
+```text
+                         ┌───────────────────┐
+                         │       Python      │
+                         │ Automation / CLI  │
+                         │ Data / Tooling    │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+┌──────────────────┐      ┌───────────────────┐      ┌──────────────────┐
+│      Linux       │ ───► │      Systems      │ ◄─── │    Networking    │
+│ Processes / CLI  │      │ Architecture      │      │ TCP/IP / Packets │
+│ Permissions      │      │ Protocols         │      │ Discovery        │
+└────────┬─────────┘      └─────────┬─────────┘      └────────┬─────────┘
+         │                          │                          │
+         └──────────────────────────┼──────────────────────────┘
+                                    ▼
+                           ┌───────────────────┐
+                           │     Security      │
+                           │ Analysis / Tools  │
+                           │ Experimentation   │
+                           └───────────────────┘
+```
+
+---
+
+# `03` — Featured Projects
+
+<div align="center">
+
+## 👁️ EYE Network Vision
+
+### Network Visibility & Security Analysis
+
+</div>
+
+EYE Network Vision is a modular network-visibility platform built with Python.
+
+Instead of treating packet capture as the final output, the project attempts to transform network activity into **structured models representing nodes, segments, and traffic flows**.
+
+### ⚡ Capabilities
+
+```text
+Interface Discovery
+       │
+       ├── IPv4 detection
+       ├── Netmask detection
+       ├── Broadcast detection
+       └── Network segmentation
+                │
+                ▼
+         Packet Collection
+                │
+       ┌────────┴────────┐
+       │                 │
+   Active Discovery   Passive Discovery
+       │                 │
+       └────────┬────────┘
+                ▼
+        Traffic Analysis
+                │
+                ▼
+       Structured Models
+                │
+       ┌────────┼────────┐
+       ▼        ▼        ▼
+    Nodes    Segments   Flows
+                │
+                ▼
+       Reports / Visualization
+```
+
+### 🧰 Stack
+
+`Python` `Scapy` `PyQt6` `psutil` `Matplotlib` `Linux`
+
+### 🔗 Repository
+
+**https://github.com/AdolfMacro/EYEnv**
+
+---
+
+<div align="center">
+
+## 👁️ EYE Master
+
+### Geographic Data Collection & Validation
+
+</div>
+
+EYE Master started as a web-scraping project and evolved into a modular **business and POI discovery framework**.
+
+The core idea is simple:
+
+> **Raw data is not useful until it has been validated and structured.**
+
+### ⚡ Core System
+
+```text
+                  ┌──────────────┐
+                  │     GUI      │
+                  └──────┬───────┘
+                         ▼
+                  GUI Controller
+                         │
+                         ▼
+               Master / Process Manager
+                         │
+                         ▼
+                  Scraper Process
+                         │
+                         ▼
+                   Scraper Worker
+                         │
+                         ▼
+                   Scraper Engine
+                         │
+              ┌──────────┼──────────┐
+              ▼          ▼          ▼
+        Query Generator Provider   Pipeline
+                         │          │
+                         ▼          ▼
+                    Raw Results → Validation
+                                      │
+                         ┌────────────┴────────────┐
+                         ▼                         ▼
+                 Valid Coordinates          No Coordinates
+                         │                         │
+                         ▼                         ▼
+                      RECORD                    DISCARD
+```
+
+### 🌍 Providers
+
+`Google` · `DuckDuckGo` · `OpenStreetMap` · `Balad`
+
+### 🧰 Stack
+
+`Python` `PyQt5` `SQLite` `Requests/HTTP`
+
+### 🔗 Repository
+
+**https://github.com/AdolfMacro/EYE-scrapper-master**
+
+---
+
+# `04` — Protocol & Systems Engineering
+
+A major part of my earlier experimentation focused on understanding **how software communicates below the application surface**.
+
+## EyeRat
+
+Experimental client/server communication project exploring:
+
+* Application-level protocols
+* Client/server architecture
+* Message framing
+* Data serialization and reconstruction
+* Encrypted communication
+* Structured command/message models
+* File and media transfer concepts
+
+The project served primarily as a **protocol and systems-engineering experiment**.
+
+---
+
+## LordRat
+
+An experimental communication architecture exploring **IRC as an intermediary transport layer**.
+
+Focus areas:
+
+`Transport Abstraction` · `Protocol Design` · `Message Routing` · `Communication State`
+
+---
+
+## MiniRat
+
+An experimental project exploring modular remote-interaction components and purpose-driven system modules.
+
+Focus areas:
+
+`Modularity` · `Component Boundaries` · `Communication` · `Deployment Design`
+
+---
+
+# `05` — Network & Security Tooling
+
+### 🏹 ScriptArcher
+
+A unified networking/security-oriented toolkit.
+
+**Explores:**
+
+`Network Scanning` · `Packet Analysis` · `System Utilities` · `Tool Integration` · `Automation`
+
+---
+
+### 🔎 EyeAnalyzer
+
+A lightweight network-observation tool focused on:
+
+`Packet Counting` · `IP Filtering` · `Port Filtering` · `Traffic Observation`
+
+---
+
+### 🛡️ EyeSniffer
+
+An experimental network-control project exploring:
+
+`IP Filtering` · `Traffic Control` · `Flood Mitigation Concepts` · `Network Observation`
+
+---
+
+### 📊 EyeLimiter
+
+An experimental project exploring:
+
+`Traffic Monitoring` · `Data-Volume Limiting` · `Resource Control` · `Network Behavior`
+
+---
+
+# `06` — Security & Binary Data
+
+## 🔥 Phoenix
+
+An experiment combining **binary file manipulation, data embedding, and encryption**.
+
+The project explores embedding encrypted textual data into PNG files while preserving the image format.
+
+### Concepts
+
+```text
+PNG Structure
+     │
+     ▼
+Binary File Manipulation
+     │
+     ▼
+Data Embedding
+     │
+     ▼
+Fernet Encryption
+     │
+     ▼
+Structured File Output
+```
+
+**Technologies:** `Python` `PNG` `Fernet` `Binary Data`
+
+---
+
+# `07` — Engineering Philosophy
+
+<div align="center">
+
+### Build → Observe → Understand → Refine
+
+</div>
+
+```text
+┌───────────┐
+│  Problem  │
+└─────┬─────┘
+      ▼
+┌───────────┐
+│ Question  │
+└─────┬─────┘
+      ▼
+┌───────────┐
+│ Experiment│
+└─────┬─────┘
+      ▼
+┌───────────┐
+│Implement  │
+└─────┬─────┘
+      ▼
+┌───────────┐
+│ Observe   │
+└─────┬─────┘
+      ▼
+┌───────────┐
+│ Refine    │
+└─────┬─────┘
+      │
+      └──────────────► New Question
+```
+
+### `01` — Build to Understand
+
+I use software to turn abstract technical questions into systems that can be observed and tested.
+
+### `02` — Structure Over Complexity
+
+I prefer clear separation of responsibilities over large, tightly coupled components.
+
+### `03` — Design for Extension
+
+Provider architectures, modular components, and processing pipelines appear repeatedly in my projects because I like systems that can evolve without being rewritten from scratch.
+
+### `04` — Evidence Over Claims
+
+I prefer demonstrating what I can build rather than relying on excessive skill labels.
+
+---
+
+# `08` — Technology Stack
+
+### Languages
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white">
 </p>
 
----
+### Systems
 
-## About
+`Linux` `Process Management` `CLI` `System Tooling` `Permissions`
 
-I am an independent developer driven by real-world problems rather than predefined roadmaps.
+### Networking
 
-Most of the projects I build begin with a practical need — something I could not solve or fully understand without building my own solution.
+`TCP/IP` `Socket Programming` `Scapy` `Packet Capture` `Traffic Analysis` `Network Discovery`
 
-> **For me, programming is not just writing software; it is the process through which understanding becomes something real.**
+### Security
 
-> **Before searching for answers, I try to understand why the question exists and whether it truly reflects the problem behind it.**
+`Network Security` `Secure Communication` `Security Tooling` `Binary File Manipulation`
 
----
+### Frameworks & Libraries
 
-## About This Portfolio
+`PyQt5` `PyQt6` `Scapy` `Requests` `psutil` `Matplotlib`
 
-This portfolio documents how each project answered a question and how each answer created the next one.
+### Data
 
-The questions are presented because they reflect the way I think before I build, not simply the code I write.
+`SQLite` `Structured Data Processing` `Validation Pipelines`
 
-Perhaps code is not the whole answer.
+### Development
 
----
-
-# Evidence
-
-The projects below represent different stages of exploration.
-
-Each project started with a question, evolved through experimentation, and created the next question.
+`Git` `GitHub` `Modular Architecture` `Client/Server Architecture` `Protocol Design`
 
 ---
 
-# 🛰️ EyeRat
+# `09` — Selected Projects
 
-🔗 Repository: https://github.com/adolfmacro/EyeRat
-
-## The Question
-
-> Could communication between systems be understood and redesigned as a different interaction model?
-
----
-
-## The Journey
-
-As the communication model became more complex, the protocol itself required additional structure.
-
-Interactive commands, encrypted messages, live camera streams, screenshots, files, and other data types had to coexist over the same communication channel without interfering with one another.
-
-This led to designing an application-level communication protocol capable of framing, separating, and reconstructing different types of encrypted data while preserving a consistent communication model.
-
-From outside the protocol, the communication no longer exposed the meaning or boundaries of the transmitted information, while the application itself could reliably interpret every message.
+| Project                    |     Area     | Core Focus                                  |
+| :------------------------- | :----------: | :------------------------------------------ |
+| 👁️ **EYE Network Vision** |  Networking  | Visibility · Capture · Discovery · Analysis |
+| 👁️ **EYE Master**         |     Data     | POI Discovery · Validation · Pipelines      |
+| 🔬 **EyeRat**              |    Systems   | Client/Server · Protocol Engineering        |
+| 🔬 **LordRat**             |    Systems   | Transport Abstraction · Protocol Design     |
+| 🧩 **MiniRat**             | Architecture | Modular Components                          |
+| 🏹 **ScriptArcher**        |   Security   | Network Tooling · Automation                |
+| 🔎 **EyeAnalyzer**         |  Networking  | Traffic Observation                         |
+| 🛡️ **EyeSniffer**         |  Networking  | Traffic Control Experiments                 |
+| 📊 **EyeLimiter**          |  Networking  | Data / Traffic Limiting                     |
+| 🔥 **Phoenix**             |   Security   | Binary Files · Data Embedding · Encryption  |
 
 ---
 
-## The Outcome
+# `10` — Technical Development
 
-EyeRat became a foundation for exploring remote communication models rather than just building a collection of features.
+I don't have a traditional academic background in computer science.
 
-The project created a deeper understanding of how changing the communication approach could affect the capabilities and limitations of a system.
+My technical development has been primarily **independent and project-driven**.
+
+I learn by:
+
+* Building real systems
+* Reading documentation
+* Studying existing implementations
+* Experimenting with Linux
+* Exploring networking and protocols
+* Debugging problems
+* Reading source code
+* Refactoring and restructuring my own projects
+* Turning technical questions into experiments
+
+My current technical direction can be summarized as:
+
+```text
+                 Linux
+                   │
+                   ▼
+              Networking
+                   │
+                   ▼
+                Systems
+                   │
+                   ▼
+                Python
+                   │
+                   ▼
+              Automation
+                   │
+                   ▼
+               Security
+```
+
+---
+
+# `11` — What I'm Looking For
+
+I'm interested in opportunities where practical engineering, troubleshooting, and continuous learning are valued.
+
+### Areas of Interest
+
+`IT Support` · `Technical Support` · `Linux / Systems Administration`
+
+`Network Engineering` · `NOC` · `Infrastructure`
+
+`Cybersecurity` · `Security Operations`
+
+`Python Development` · `Automation`
+
+`QA / Technical Engineering`
+
+`Junior Engineering Roles`
+
+I'm particularly interested in environments where I can **work with real systems, solve technical problems, and continue developing deeper expertise**.
+
+📍 **Yerevan, Armenia**
 
 ---
 
-## Derived Exploration
+# `12` — Beyond the Resume
 
-### Can the network environment be changed?
+I don't try to present myself as someone who already knows everything.
 
-# 🌐 LordRat
+I'm more interested in being the person who can take an unfamiliar system, **break the problem down, investigate it, understand how it works, and build a solution**.
 
-🔗 Repository: https://github.com/adolfmacro/LordRat
+That's the approach behind most of my projects.
 
-## The Exploration
-
-LordRat was created to explore whether the same communication model could work through a different environment.
-
-It was not built as a replacement for EyeRat or as a more complete version of it.
-
-Instead, it changed the communication path by using an IRC chat room as an intermediary.
-
-The project showed that changing the communication environment could provide another way to explore the same interaction model.
+> **Curiosity drives the question.
+> Engineering turns it into something real.**
 
 ---
 
-## Technical Understanding
+# `13` — Contact
 
-This exploration led to designing communication as an application-level protocol rather than a simple data channel.
+<div align="center">
 
-It demonstrated how message framing, encrypted communication, and transport independence could shape the behavior of an entire system.
+### Mani Kamran
 
----
+**Python · Linux · Networking · Security**
 
-## Questions Explored After LordRat
+📍 Yerevan, Armenia
 
-### Does every remote interaction require the same set of capabilities?
+📧 **[m4nikamran@gmail.com](mailto:m4nikamran@gmail.com)**
 
----
-
-# 🧩 MiniRat
-
-🔗 Repository: https://github.com/adolfmacro/EyeRat#what-is-a-minirat-
-
-LordRat answered how the communication environment could change.
-
-This raised another question:
-
-> **Does every remote interaction require the same set of capabilities?**
-
-Instead of treating remote access as a single application, MiniRat explored whether each objective could become an independent deployment unit.
-
-Rather than building one large executable, it separated communication into purpose-driven components, allowing only the required capability to be deployed.
-
-This transformed functionality itself into a modular architecture rather than a fixed collection of features.
-
-This also demonstrated that deployment itself could become modular, allowing each executable to represent a single purpose rather than an entire framework.
-
----
+📞 **+374 91 417836**
 
 <br>
 
-# 🏹 ScriptArcher
+<a href="https://github.com/AdolfMacro/">
+  <img src="https://img.shields.io/badge/GitHub-AdolfMacro-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
 
-🔗 Repository: https://github.com/adolfmacro/ScriptArcher
+<a href="https://www.linkedin.com/in/manikamran/">
+  <img src="https://img.shields.io/badge/LinkedIn-Mani%20Kamran-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+</a>
 
-## The Question
+<br><br>
 
-> Could combining different tools used in daily workflows create a more structured and effective approach?
+`Thanks for stopping by.`
 
----
-
-## The Journey
-
-ScriptArcher started from the need to organize different tools used across various workflows.
-
-Instead of using each tool separately, the project explored whether combining them into a single toolkit could create a more connected workflow and reduce repeated preparation.
-
-The project brought together different networking and security-related tools, including scanning, packet analysis, and system utilities, creating a practical environment to understand how different tools could work together.
-
-Through this process, the focus shifted from collecting tools to understanding how the structure of a toolkit could affect the way tasks are approached.
-
----
-
-## The Outcome
-
-ScriptArcher showed that a well-organized toolkit could improve workflow efficiency and reduce the time spent preparing and switching between different tools.
-
-More importantly, it created a better understanding of when combining tools provides value compared to using them individually.
-
-This raised a new question:
-
-> If tools are only the means, what is it that truly needs to be observed and understood?
-
----
-
-# 👁️ EyeAnalyzer
-
-🔗 Repository: https://github.com/adolfmacro/EyeAnalyzer
-
-## The Question
-
-> What is the minimum that needs to be observed?
-
----
-
-EyeAnalyzer was created to answer a simple question:
-
-What is the minimum information required to understand network behavior?
-
-Instead of analyzing packet contents or traffic details, it focused only on counting packets matching simple filters such as IP addresses or ports.
-
-The project explored whether basic observation alone could reveal meaningful network behavior.
-
----
-
-## New Question
-
-> Could observation itself be protected from simple network noise?
-
----
-
-# 🛡️ EyeSniffer
-
-🔗 Repository: https://github.com/AdolfMacro/EyeSniffer
-
-EyeSniffer was created to answer a simple question:
-
-> Could observation be protected from simple network noise?
-
-Instead of expanding packet analysis, it introduced basic controls such as blocking predefined IP addresses and reducing the impact of intentional packet flooding.
-
-The goal was not to build a firewall, but to preserve clearer observation by preventing obvious interference.
-
----
-
-## New Question
-
-> Could the same type of control be applied to network data volume?
-
----
-
-# 📊 EyeLimiter
-
-🔗 Repository: https://github.com/AdolfMacro/EyeLimiter
-
-EyeLimiter was created to answer a simple question:
-
-> Could the same type of control be applied to network data volume?
-
-Instead of focusing on individual packets, it explored whether limiting network data volume could become another simple layer of observation.
-
-The project remained focused on answering that single question rather than becoming a complete traffic management system.
-
----
-
-## Technical Understanding
-
-This exploration gradually shifted the focus from collecting network information to understanding:
-
-- What should actually be observed
-- How observation can remain reliable
-- How unnecessary complexity can be removed without losing meaningful behavior
-
----
-
-<br>
-
-# 🔥 Phoenix
-
-🔗 Repository: https://github.com/AdolfMacro/phoenix
-
-An independent exploration into file structure, hidden data, and encryption.
-
----
-
-## The Idea
-
-This project started from exploring whether information could be stored inside another file format while keeping the original file usable.
-
-Instead of focusing on traditional data storage methods, it explored the idea of embedding data into an image and understanding how the file structure could be used as a medium for carrying information.
-
----
-
-## The Approach
-
-The project implemented a simple method for attaching text data to PNG images while preserving the image format.
-
-It also explored adding an encryption layer using Fernet to protect the embedded data and make the stored information accessible only with the correct key.
-
-The goal was not to create a complete steganography system, but to understand the behavior of files and how data can exist beyond what is directly visible.
-
----
-
-## The Outcome
-
-The project created a practical understanding of how file structures can be used to store additional information and how encryption can be combined with data embedding.
-
-It provided a deeper view of the relationship between visible content, hidden data, and the way digital files are structured.
-
----
-
-# 🧠 Technical Skills
-
-## Programming
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-
-- Python
-- Bash
-
----
-
-## Software Engineering
-
-- Client/Server Architecture
-- Application-Level Protocol Design
-- Modular Software Design
-
----
-
-## Security
-
-- Secure Communication
-- Binary File Manipulation
-
----
-
-## Networking
-
-- Socket Programming
-- Packet Analysis
-- Traffic Observation
-
----
-
-## Technologies & Tools
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=linux,git,python,bash" />
-
-</p>
-
-Additional tools:
-
-- Scapy
-- Nmap
-- OpenCV
-
----
-
-# 🎓 Education
-
-## Independent Learning
-
-My education has been driven primarily by curiosity, experimentation, and long-term self-study.
-
-Instead of following predefined learning paths, I have focused on understanding systems by building projects, reading technical documentation, and studying the underlying concepts behind software and computer systems.
-
-Over time, this learning has included Linux internals, networking, cryptography, communication protocols, and software architecture.
-
----
-
-## Contact
-Every project in this portfolio started with a conversation between a question and an idea.
-Perhaps the next one starts with a conversation.
-
-- GitHub: https://www.github.com/adolfmacro
-- Email: m4nikamran@gmail.com
-- WebPage: https://adolfmacro.github.io
-**Perhaps code was never the destination—only the language I used to understand the questions.**
+</div>
