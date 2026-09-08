@@ -30,14 +30,14 @@ I like taking technical questions that are difficult to see from the outside and
 
 My main areas of interest are:
 
-| Area                | Focus                                                             |
-| ------------------- | ----------------------------------------------------------------- |
-| 🐍 **Python**       | Automation, tooling, data processing, modular applications        |
-| 🐧 **Linux**        | Systems, processes, permissions, networking, CLI environments     |
-| 🌐 **Networking**   | TCP/IP, sockets, discovery, packet capture, traffic analysis      |
-| 🔐 **Security**     | Network security, secure communication, security-oriented tooling |
-| ⚙️ **Architecture** | Modular systems, pipelines, providers, separation of concerns     |
-| 🧩 **Data**         | Collection, validation, processing, structured storage            |
+| Area | Focus |
+|---|---|
+| 🐍 **Python** | Automation, tooling, data processing, modular applications |
+| 🐧 **Linux** | Systems, processes, permissions, networking, CLI environments |
+| 🌐 **Networking** | TCP/IP, sockets, discovery, packet capture, traffic analysis |
+| 🔐 **Security** | Network security, secure communication, security-oriented tooling |
+| ⚙️ **Architecture** | Modular systems, pipelines, providers, separation of concerns |
+| 🧩 **Data** | Collection, validation, processing, structured storage |
 
 ---
 
@@ -80,43 +80,38 @@ My main areas of interest are:
 
 EYE Network Vision is a modular network-visibility platform built with Python.
 
-Instead of treating packet capture as the final output, the project attempts to transform network activity into **structured models representing nodes, segments, and traffic flows**.
+Instead of treating packet capture as the final output, the project transforms network activity into **structured models representing nodes, segments, and traffic flows**.
 
 ### ⚡ Capabilities
 
-```text
-Interface Discovery
-       │
-       ├── IPv4 detection
-       ├── Netmask detection
-       ├── Broadcast detection
-       └── Network segmentation
-                │
-                ▼
-         Packet Collection
-                │
-       ┌────────┴────────┐
-       │                 │
-   Active Discovery   Passive Discovery
-       │                 │
-       └────────┬────────┘
-                ▼
-        Traffic Analysis
-                │
-                ▼
-       Structured Models
-                │
-       ┌────────┼────────┐
-       ▼        ▼        ▼
-    Nodes    Segments   Flows
-                │
-                ▼
-       Reports / Visualization
-```
+- Automatic network-interface discovery
+- IPv4 / netmask / broadcast detection
+- Automatic network-segment identification
+- Live packet capture using **Scapy**
+- ARP-based active host discovery
+- Passive node discovery
+- Traffic classification
+- Network-node and traffic-flow modeling
+- Network analysis
+- CSV / TXT reporting
+- CLI interface
+- PyQt6 graphical interface
+- Real-time statistics and visualization
 
 ### 🧰 Stack
 
 `Python` `Scapy` `PyQt6` `psutil` `Matplotlib` `Linux`
+
+### 🖥️ Project Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdolfMacro/EYEnv/refs/heads/main/sc1.png" width="49%" alt="EYE Network Vision dashboard">
+  <img src="https://raw.githubusercontent.com/AdolfMacro/EYEnv/refs/heads/main/sc2.jpg" width="49%" alt="EYE Network Vision traffic view">
+</p>
+
+<p align="center">
+  <sub>Network dashboard · Traffic monitoring</sub>
+</p>
 
 ### 🔗 Repository
 
@@ -182,6 +177,17 @@ The core idea is simple:
 
 `Python` `PyQt5` `SQLite` `Requests/HTTP`
 
+### 🖥️ Project Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdolfMacro/EYE-scrapper-master/main/image.png" width="49%" alt="EYE Master scraper management interface">
+  <img src="https://raw.githubusercontent.com/AdolfMacro/EYE-scrapper-master/main/mapV.png" width="49%" alt="EYE Master data manager and map view">
+</p>
+
+<p align="center">
+  <sub>Scraper management · Data manager, map & statistics</sub>
+</p>
+
 ### 🔗 Repository
 
 **https://github.com/AdolfMacro/EYE-scrapper-master**
@@ -194,17 +200,27 @@ A major part of my earlier experimentation focused on understanding **how softwa
 
 ## EyeRat
 
-Experimental client/server communication project exploring:
+An experimental client/server communication project exploring:
 
-* Application-level protocols
-* Client/server architecture
-* Message framing
-* Data serialization and reconstruction
-* Encrypted communication
-* Structured command/message models
-* File and media transfer concepts
+- Application-level protocols
+- Client/server architecture
+- Message framing
+- Data serialization and reconstruction
+- Encrypted communication
+- Structured command/message models
+- File and media transfer concepts
 
 The project served primarily as a **protocol and systems-engineering experiment**.
+
+### 🖥️ Project Screenshot
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdolfMacro/eyeRat/refs/heads/main/screenshots/2.jpg" width="85%" alt="EyeRat command interface">
+</p>
+
+<p align="center">
+  <sub>Experimental command and communication interface</sub>
+</p>
 
 ---
 
@@ -385,18 +401,18 @@ I prefer demonstrating what I can build rather than relying on excessive skill l
 
 # `09` — Selected Projects
 
-| Project                    |     Area     | Core Focus                                  |
-| :------------------------- | :----------: | :------------------------------------------ |
-| 👁️ **EYE Network Vision** |  Networking  | Visibility · Capture · Discovery · Analysis |
-| 👁️ **EYE Master**         |     Data     | POI Discovery · Validation · Pipelines      |
-| 🔬 **EyeRat**              |    Systems   | Client/Server · Protocol Engineering        |
-| 🔬 **LordRat**             |    Systems   | Transport Abstraction · Protocol Design     |
-| 🧩 **MiniRat**             | Architecture | Modular Components                          |
-| 🏹 **ScriptArcher**        |   Security   | Network Tooling · Automation                |
-| 🔎 **EyeAnalyzer**         |  Networking  | Traffic Observation                         |
-| 🛡️ **EyeSniffer**         |  Networking  | Traffic Control Experiments                 |
-| 📊 **EyeLimiter**          |  Networking  | Data / Traffic Limiting                     |
-| 🔥 **Phoenix**             |   Security   | Binary Files · Data Embedding · Encryption  |
+| Project | Area | Core Focus |
+|:---|:---:|:---|
+| 👁️ **EYE Network Vision** | Networking | Visibility · Capture · Discovery · Analysis |
+| 👁️ **EYE Master** | Data | POI Discovery · Validation · Pipelines |
+| 🔬 **EyeRat** | Systems | Client/Server · Protocol Engineering |
+| 🔬 **LordRat** | Systems | Transport Abstraction · Protocol Design |
+| 🧩 **MiniRat** | Architecture | Modular Components |
+| 🏹 **ScriptArcher** | Security | Network Tooling · Automation |
+| 🔎 **EyeAnalyzer** | Networking | Traffic Observation |
+| 🛡️ **EyeSniffer** | Networking | Traffic Control Experiments |
+| 📊 **EyeLimiter** | Networking | Data / Traffic Limiting |
+| 🔥 **Phoenix** | Security | Binary Files · Data Embedding · Encryption |
 
 ---
 
@@ -408,15 +424,15 @@ My technical development has been primarily **independent and project-driven**.
 
 I learn by:
 
-* Building real systems
-* Reading documentation
-* Studying existing implementations
-* Experimenting with Linux
-* Exploring networking and protocols
-* Debugging problems
-* Reading source code
-* Refactoring and restructuring my own projects
-* Turning technical questions into experiments
+- Building real systems
+- Reading documentation
+- Studying existing implementations
+- Experimenting with Linux
+- Exploring networking and protocols
+- Debugging problems
+- Reading source code
+- Refactoring and restructuring my own projects
+- Turning technical questions into experiments
 
 My current technical direction can be summarized as:
 
@@ -473,7 +489,7 @@ I'm more interested in being the person who can take an unfamiliar system, **bre
 
 That's the approach behind most of my projects.
 
-> **Curiosity drives the question.
+> **Curiosity drives the question.  
 > Engineering turns it into something real.**
 
 ---
@@ -488,7 +504,7 @@ That's the approach behind most of my projects.
 
 📍 Yerevan, Armenia
 
-📧 **[m4nikamran@gmail.com](mailto:m4nikamran@gmail.com)**
+📧 **m4nikamran@gmail.com**
 
 📞 **+374 91 417836**
 
