@@ -185,27 +185,6 @@ A Python-based toolkit built around repetitive networking, security and system-o
 
 ---
 
-## EyeRat
-
-### Experimental Client / Server Communication
-
-An experimental systems project exploring application-level communication, message framing, serialization, encrypted communication and data transfer.
-
-**Repository →** https://github.com/AdolfMacro/eyeRat
-
----
-
-## LordRat
-
-### Experimental Transport Architecture
-
-An experimental communication architecture exploring IRC as an intermediary transport layer.
-
-`Transport Abstraction` · `Protocol Design` · `Message Routing`
-
-**Repository →** https://github.com/AdolfMacro/LordRat
-
----
 
 ## Phoenix
 
