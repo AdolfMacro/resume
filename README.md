@@ -2,267 +2,713 @@
 
 ### `PYTHON` · `AUTOMATION` · `SYSTEMS` · `NETWORKING` · `SECURITY`
 
-> ## **MACROPINIX**
->
-> ### An independent engineering space for building, testing and understanding real systems.
->
-> **Macropinix is where I turn technical questions into working software.**
->
-> From Python automation and data pipelines to Linux tools, network analysis and security experiments — this is the space where the work is built, tested, observed and documented.
-
-<p align="left">
-  <a href="https://macropinix.github.io/">
-    <img src="https://img.shields.io/badge/Macropinix-111821?style=for-the-badge&logoColor=F4B942" />
-  </a>
-  <a href="https://github.com/AdolfMacro">
-    <img src="https://img.shields.io/badge/GitHub-AdolfMacro-111821?style=for-the-badge&logo=github&logoColor=F4B942" />
-  </a>
-  <a href="https://www.linkedin.com/in/manikamran/">
-    <img src="https://img.shields.io/badge/LinkedIn-Mani_Kamran-111821?style=for-the-badge&logo=linkedin&logoColor=F4B942" />
-  </a>
-  <a href="mailto:m4nikamran@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-111821?style=for-the-badge&logo=gmail&logoColor=F4B942" />
-  </a>
-</p>
+**Independent Developer · Systems Builder · Technical Explorer**
 
 ---
 
-### `IF YOU ONLY READ ONE THING`
+<div align="center">
 
-**I build practical software around real technical problems.**
+# MACROPINIX
 
-**Python is my primary tool.**
-**Linux and networking are my environment.**
-**Automation is my strongest capability.**
-**Security and systems are where I like to go deeper.**
+### An independent engineering space for building, testing and understanding real systems.
 
-`Python` → `Automation` → `Systems` → `Networking` → `Security`
+**Questions → Experiments → Software → Evidence → Understanding**
 
-📍 **Yerevan, Armenia**
+[ GitHub ] · [ LinkedIn ] · [ Email ]
+
+</div>
 
 ---
 
-## `01` — PROFILE
+> **Programming is the process through which understanding becomes something real.**
 
-I am an independent developer and systems-focused builder working primarily with Python.
+Macropinix is where I turn technical questions into working software.
 
-My approach is simple:
+I build tools around problems that interest me — from Python automation and data collection to Linux systems, network analysis, desktop applications and security experiments.
+
+I don't start with a roadmap.
+
+I start with a question.
+
+Then I build something that can answer it.
+
+---
+
+## `01` — IF YOU ONLY READ ONE THING
+
+### I build practical software around real technical problems.
+
+My strongest area is **Python**, especially when it is used to automate work, process data, build tools, or connect different parts of a system.
+
+Around Python, I work with:
 
 ```text
-QUESTION
-   ↓
-BUILD
-   ↓
-OBSERVE
-   ↓
-UNDERSTAND
-   ↓
-IMPROVE
+Python
+  ├── Automation
+  ├── Scraping & Data Processing
+  ├── Tooling
+  ├── Desktop Applications
+  └── System Utilities
+
+Linux
+  ├── Processes
+  ├── CLI
+  ├── Permissions
+  └── System Behavior
+
+Networking
+  ├── TCP/IP
+  ├── Packet Capture
+  ├── Discovery
+  └── Traffic Analysis
+
+Security
+  ├── Security Tooling
+  ├── Network Security
+  ├── Binary Data
+  └── Experimental Systems
 ```
 
-I learn by building real systems rather than following predefined roadmaps.
+The important part is not the list.
 
-My work focuses on automation, data collection, desktop tooling, Linux, networking, monitoring and security-oriented software.
-
-> **Build it. Observe it. Understand it. Improve it.**
+**The important part is the evidence.**
 
 ---
 
-## `02` — WHAT I BUILD
+# `02` — MACROPINIX AT A GLANCE
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### ⚙ AUTOMATION
+|                |                                                 |
+| -------------- | ----------------------------------------------- |
+| **BUILD**      | Turn questions into working systems             |
+| **OBSERVE**    | Make behavior visible and measurable            |
+| **UNDERSTAND** | Study what the system is actually doing         |
+| **REFINE**     | Improve architecture, reliability and usability |
 
-Python scripts, utilities and workflow automation.
+</div>
 
-`Python` · `Bash` · `CLI`
-
-</td>
-<td width="50%">
-
-### ◈ DATA
-
-Scraping, extraction, normalization and validation pipelines.
-
-`Python` · `HTTP` · `SQLite`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### ▣ DESKTOP TOOLS
-
-Custom technical applications and monitoring interfaces.
-
-`PyQt5` · `PyQt6` · `Matplotlib`
-
-</td>
-<td width="50%">
-
-### ⌁ SYSTEMS
-
-Linux, networking, monitoring and system-oriented tooling.
-
-`Linux` · `TCP/IP` · `Scapy`
-
-</td>
-</tr>
-</table>
-
----
-
-# `03` — EVIDENCE
-
-## EYE Network Vision
-
-### Network Visibility & Traffic Analysis
-
-A modular network visibility system built around turning raw packet activity into understandable models of **segments, nodes and flows**.
-
-<p>
-<img src="https://img.shields.io/badge/Python-111821?style=flat-square&logo=python&logoColor=F4B942" />
-<img src="https://img.shields.io/badge/Scapy-111821?style=flat-square&logoColor=F4B942" />
-<img src="https://img.shields.io/badge/PyQt6-111821?style=flat-square&logo=F4B942" />
-<img src="https://img.shields.io/badge/Linux-111821?style=flat-square&logo=linux&logoColor=F4B942" />
-</p>
-
-**Capabilities**
-
-`Interface Discovery` · `Network Detection` · `Packet Capture` · `ARP Discovery`
-`Passive Discovery` · `Traffic Classification` · `Node Modeling` · `Flow Modeling`
-`Network Analysis` · `CSV/TXT Reporting` · `CLI` · `Real-time Visualization`
-
-**Repository →** https://github.com/AdolfMacro/EYEnv
-
----
-
-## EYE Master
-
-### Geographic Data Collection & Validation
-
-What started as a scraping experiment evolved into a modular business / point-of-interest discovery system.
-
-> **NO COORDINATES = NO RECORD**
-
-The architecture separates collection, processing and validation while supporting multiple data providers.
+### My working loop
 
 ```text
-GUI
- ↓
-Controller
- ↓
-Process Manager
- ↓
-Scraper Engine
- ↓
-Providers
- ↓
-Raw Results
- ↓
-Validation
- ├── VALID → DATABASE
- └── INVALID → DISCARD
+        QUESTION
+           │
+           ▼
+      EXPERIMENT
+           │
+           ▼
+        BUILD
+           │
+           ▼
+       OBSERVE
+           │
+           ▼
+      UNDERSTAND
+           │
+           ▼
+        REFINE
+           │
+           └──────────────► NEXT QUESTION
 ```
 
-**Repository →** https://github.com/AdolfMacro/EYE-scrapper-master
+This loop is the common thread across my projects.
 
 ---
+
+# `03` — TECHNICAL LANDSCAPE
+
+```text
+                         ┌───────────────────┐
+                         │      PYTHON       │
+                         │ Automation / Data │
+                         │ Tooling / Apps    │
+                         └─────────┬─────────┘
+                                   │
+                 ┌─────────────────┼─────────────────┐
+                 │                 │                 │
+                 ▼                 ▼                 ▼
+          ┌────────────┐    ┌────────────┐    ┌────────────┐
+          │   LINUX    │    │ NETWORKING │    │  SECURITY  │
+          │ Processes  │    │ TCP/IP     │    │ Tooling    │
+          │ CLI / Sys  │    │ Scapy      │    │ Analysis   │
+          └──────┬─────┘    └──────┬─────┘    └──────┬─────┘
+                 │                 │                 │
+                 └─────────────────┼─────────────────┘
+                                   ▼
+                         ┌───────────────────┐
+                         │     SYSTEMS       │
+                         │ Build / Observe   │
+                         │ Analyze / Refine  │
+                         └───────────────────┘
+```
+
+---
+
+# `04` — EVIDENCE
+
+## `01` EYE Network Vision
+
+### Modular Network Visibility & Analysis Platform
+
+**Python · Scapy · PyQt6 · Linux · psutil · Matplotlib**
+
+[Repository →](https://github.com/AdolfMacro/EYEnv)
+
+---
+
+### What it does
+
+EYE Network Vision is a modular network visibility system designed to make local network behavior observable.
+
+It combines interface discovery, network segmentation, packet capture, node discovery, traffic classification and visualization into a single application.
+
+### Capabilities
+
+`INTERFACE DISCOVERY`
+`NETWORK SEGMENTATION`
+`ARP DISCOVERY`
+`PASSIVE NODE DISCOVERY`
+`PACKET CAPTURE`
+`TRAFFIC ANALYSIS`
+`FLOW MODELING`
+`CSV / TXT REPORTING`
+`CLI`
+`PyQt6 GUI`
+
+### Architecture
+
+```text
+┌───────────────┐
+│ Network       │
+│ Interfaces    │
+└───────┬───────┘
+        ▼
+┌───────────────┐
+│ Interface &   │
+│ Segment        │
+│ Discovery      │
+└───────┬───────┘
+        ▼
+┌───────────────┐
+│ Capture /     │
+│ Discovery     │
+└───────┬───────┘
+        ▼
+┌───────────────┐
+│ Traffic       │
+│ Classification│
+└───────┬───────┘
+        ▼
+┌───────────────┐
+│ Nodes / Flows │
+│ / Analysis    │
+└───────┬───────┘
+        ▼
+┌───────────────┐
+│ Reports / GUI │
+└───────────────┘
+```
+
+### Why it matters
+
+This project demonstrates the ability to move from low-level network information to a usable application layer:
+
+**network → capture → model → analysis → visualization**
+
+---
+
+## `02` EYE Master
+
+### Modular Business & POI Discovery Framework
+
+**Python · PyQt5 · SQLite · HTTP · Multi-Provider Architecture**
+
+[Repository →](https://github.com/AdolfMacro/EYE-scrapper-master)
+
+---
+
+### From scraping to a data pipeline
+
+EYE Master started as a scraping project and evolved into a modular discovery framework.
+
+Its central rule is simple:
+
+> **No Coordinates = No Record**
+
+A result is not considered useful merely because a provider returned it.
+
+It must pass validation before entering the database.
+
+### Pipeline
+
+```text
+                    ┌──────────────┐
+                    │     GUI      │
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │ GUIController│
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │    Master    │
+                    │ ProcessManager│
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │ScraperProcess│
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │ ScraperWorker│
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │ ScraperEngine│
+                    └──────┬───────┘
+                           ▼
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+        ┌────────┐   ┌──────────┐   ┌────────┐
+        │Provider│   │Provider  │   │Provider│
+        │   A    │   │    B     │   │   C    │
+        └────┬───┘   └────┬─────┘   └───┬────┘
+             └─────────────┼─────────────┘
+                           ▼
+                    ┌──────────────┐
+                    │ Raw Results  │
+                    └──────┬───────┘
+                           ▼
+                    ┌──────────────┐
+                    │ Validation   │
+                    └──────┬───────┘
+                           ▼
+                 ┌─────────┴─────────┐
+                 ▼                   ▼
+          ┌─────────────┐     ┌─────────────┐
+          │ Valid Record│     │   Discard   │
+          └──────┬──────┘     └─────────────┘
+                 ▼
+          ┌─────────────┐
+          │   SQLite    │
+          └─────────────┘
+```
+
+### Provider-oriented design
+
+The architecture allows different data sources to participate in the same pipeline while keeping provider-specific logic separated from processing and validation.
+
+Current project work includes providers such as:
+
+`GOOGLE` · `DUCKDUCKGO` · `OPENSTREETMAP` · `BALAD`
+
+The system also includes Persian category-driven discovery and structured storage.
+
+### What this project demonstrates
+
+* Modular architecture
+* Data extraction
+* Provider abstraction
+* Validation pipelines
+* Structured storage
+* GUI-driven workflows
+* Separation of responsibilities
+* Designing software for extension
+
+---
+
+# `03` EYE-scrapper
+
+### The Smaller, Single-Path Version
+
+**Python · Scraping · Data Processing · SQLite**
+
+[Repository →](https://github.com/AdolfMacro/EYE-scrapper)
+
+---
+
+EYE-scrapper is the smaller predecessor to the more structured EYE Master architecture.
+
+Instead of introducing the larger orchestration layer, it represents the same fundamental problem as a simpler, more direct pipeline.
+
+```text
+          QUERY
+            │
+            ▼
+        SCRAPER
+            │
+            ▼
+        PROVIDER
+            │
+            ▼
+       RAW RESULTS
+            │
+            ▼
+    EXTRACTION / FILTER
+            │
+            ▼
+         STORAGE
+```
+
+### Why keep this project?
+
+Because it shows **architectural evolution**.
+
+The interesting story is not:
+
+> “I built two scrapers.”
+
+It is:
+
+> **A simple implementation exposed a problem space, which later evolved into a more modular architecture.**
+
+```text
+EYE-scrapper
+     │
+     │  simple / direct
+     ▼
+┌─────────────────┐
+│ Single-path     │
+│ implementation  │
+└────────┬────────┘
+         │
+         │ architectural growth
+         ▼
+┌─────────────────┐
+│    EYE Master   │
+│                 │
+│ Providers       │
+│ Workers         │
+│ Processes       │
+│ Validation      │
+│ Storage         │
+└─────────────────┘
+```
+
+This is one of the strongest examples in the portfolio of **learning through building**.
+
+---
+
+# `05` — PYTHON AUTOMATION & TOOLING
 
 ## ScriptArcher
 
-### Security & Networking Automation Toolkit
+### Networking & Security-Oriented Automation Toolkit
 
-A Python-based toolkit built around repetitive networking, security and system-oriented tasks.
+**Python · Automation · Networking · Linux**
 
-`Network Scanning` · `Packet Analysis` · `System Utilities` · `Automation`
+[Repository →](https://github.com/AdolfMacro/ScriptArcher)
 
-**Repository →** https://github.com/AdolfMacro/ScriptArcher
+ScriptArcher is a Python-based toolkit built around repetitive networking, security and system-oriented tasks.
+
+The project explores how individual utilities can be brought together into a more reusable tooling environment.
+
+```text
+NETWORKING
+     │
+     ├── Scanning
+     ├── Packet Analysis
+     └── Network Utilities
+
+SYSTEM
+     │
+     ├── Utilities
+     ├── CLI Tools
+     └── Automation
+
+SECURITY
+     │
+     ├── Analysis
+     └── Security-Oriented Tooling
+```
 
 ---
 
+# `06` — NETWORK TOOLING
+
+Several smaller experiments grew from the same interest in making network behavior observable.
+
+### EyeAnalyzer
+
+**Packet observation · IP filtering · Port filtering · Traffic analysis**
+
+### EyeSniffer
+
+**Traffic observation · Filtering · Network behavior · Flood mitigation concepts**
+
+### EyeLimiter
+
+**Traffic monitoring · Data-volume control · Resource behavior**
+
+Together:
+
+```text
+              NETWORK TOOLING
+                    │
+       ┌────────────┼────────────┐
+       ▼            ▼            ▼
+  EyeAnalyzer   EyeSniffer   EyeLimiter
+       │            │            │
+       └────────────┼────────────┘
+                    ▼
+          Observe Network Behavior
+```
+
+These projects represent smaller experiments around the same larger question:
+
+> **How can network behavior be captured, understood and controlled through software?**
+
+---
+
+# `07` — BINARY DATA & SECURITY EXPERIMENTS
 
 ## Phoenix
 
-### Binary Data Manipulation
+### Binary File Manipulation & Data Embedding
 
-An experiment in encrypted data embedding inside PNG files while preserving the image format.
+**Python · PNG · Fernet · Binary Data**
 
-`Python` · `PNG` · `Fernet` · `Binary Data`
+Phoenix explores the manipulation of binary file structures by embedding encrypted textual data into PNG images while preserving the image format.
+
+The project combines:
+
+`FILE FORMAT` · `BINARY DATA` · `ENCRYPTION` · `PYTHON`
+
+The goal was not simply to use an existing library.
+
+It was to understand what happens underneath the abstraction.
 
 ---
 
-# `04` — TECHNICAL LANDSCAPE
+# `08` — WHAT I CAN BUILD
+
+<div align="center">
+
+### ⚙️ AUTOMATION
+
+Python scripts · workflow automation · utilities · repetitive task reduction
+
+### ◈ DATA
+
+Web scraping · extraction · validation · structured data · SQLite pipelines
+
+### 🖥 DESKTOP
+
+PyQt5 / PyQt6 applications · monitoring interfaces · technical tools
+
+### ◉ NETWORKING
+
+Packet capture · network discovery · traffic observation · analysis tools
+
+### ⌘ SYSTEMS
+
+Linux utilities · CLI tools · process-oriented applications · system tooling
+
+### 🔐 SECURITY
+
+Security-oriented tooling · network security experiments · binary data · technical analysis
+
+</div>
+
+---
+
+# `09` — SKILL MATRIX
+
+| Area              | Evidence                                          |
+| ----------------- | ------------------------------------------------- |
+| **Python**        | Automation · Scraping · Tooling · Data Processing |
+| **Desktop**       | PyQt5 · PyQt6 · Monitoring Interfaces             |
+| **Linux**         | CLI · Processes · Permissions · System Tools      |
+| **Networking**    | TCP/IP · Scapy · Capture · Discovery              |
+| **Automation**    | ScriptArcher · Data Pipelines · Utilities         |
+| **Web Scraping**  | EYE-scrapper · EYE Master                         |
+| **Data**          | SQLite · Validation · Structured Processing       |
+| **Security**      | Security Tooling · Network Analysis · Binary Data |
+| **Architecture**  | Modular Systems · Pipelines · Provider Design     |
+| **Visualization** | PyQt · Matplotlib · Real-time Statistics          |
+
+---
+
+# `10` — HOW I ENGINEER
+
+### `01` BUILD
+
+Start with something concrete.
+
+### `02` OBSERVE
+
+Watch what the system actually does.
+
+### `03` UNDERSTAND
+
+Identify the behavior, limitation or missing abstraction.
+
+### `04` REFINE
+
+Change the design based on evidence.
 
 ```text
-                         MACROPINIX
-                             │
-                 ┌───────────┴───────────┐
-                 │                       │
-              BUILD                    EXPLORE
-                 │                       │
-       ┌─────────┼─────────┐      ┌──────┼──────┐
-       ▼         ▼         ▼      ▼      ▼      ▼
-    PYTHON    SYSTEMS   NETWORK  DATA  SECURITY  TOOLS
-       │         │         │
-       └─────────┴─────────┘
-                 │
-                 ▼
-          REAL WORKING SYSTEMS
+BUILD
+  ↓
+OBSERVE
+  ↓
+UNDERSTAND
+  ↓
+REFINE
+  ↓
+BUILD AGAIN
 ```
 
-### Core Stack
+This is why many of my projects evolve over time instead of appearing as isolated finished products.
 
-`Python` · `Linux` · `Bash` · `PyQt5` · `PyQt6` · `Scapy`
-`TCP/IP` · `SQLite` · `Requests` · `Matplotlib` · `Git` · `GitHub`
-
----
-
-# `05` — ENGINEERING MINDSET
-
-### Structure over complexity
-
-Separate responsibilities instead of accumulating logic.
-
-### Design for extension
-
-Providers, workers and components should be replaceable.
-
-### Evidence over claims
-
-Show what exists. Explain what it does. Avoid inflated titles.
-
-### Build to understand
-
-The implementation itself is part of the learning process.
+**EYE-scrapper → EYE Master** is one example.
 
 ---
 
-# `06` — CURRENT DIRECTION
+# `11` — ENGINEERING PRINCIPLES
 
-I am looking for opportunities where I can contribute through:
+### Evidence Over Claims
 
-`Python Development` · `Automation` · `Data Collection`
-`Web Scraping` · `PyQt Applications` · `Linux / Systems`
-`Networking` · `Monitoring` · `Security Tooling`
-`QA / Technical Engineering` · `Junior Engineering`
+I prefer showing what a system actually does over making large claims about what I know.
+
+### Structure Over Complexity
+
+Complexity is useful only when it solves a real problem.
+
+### Design for Extension
+
+When a project grows, architecture should make the next change easier rather than harder.
+
+### Build to Understand
+
+Sometimes the fastest way to understand a system is to build a smaller version of it.
+
+### Questions → Answers → Next Questions
+
+A finished project does not necessarily mean the investigation is finished.
 
 ---
 
-# `07` — CONTACT
+# `12` — TECHNICAL STACK
 
-### Mani Kamran
+### Languages
 
-`Python · Automation · Linux · Networking · Security`
+`Python` · `Bash`
 
-📍 Yerevan, Armenia
+### Systems
 
-**Macropinix**
-https://macropinix.github.io/
+`Linux` · `CLI` · `Processes` · `Permissions`
+
+### Networking
+
+`TCP/IP` · `Sockets` · `Scapy` · `Packet Capture` · `Network Discovery`
+
+### Desktop
+
+`PyQt5` · `PyQt6` · `Matplotlib`
+
+### Data
+
+`SQLite` · `Structured Data` · `Validation Pipelines`
+
+### Web / Collection
+
+`HTTP` · `Requests` · `Web Scraping` · `Multi-Provider Pipelines`
+
+### Engineering
+
+`Git` · `GitHub` · `Modular Architecture` · `Client/Server Concepts` · `Protocol Design`
+
+---
+
+# `13` — DEVELOPMENT APPROACH
+
+I do not come from a traditional academic computer-science path.
+
+My development has primarily been project-driven.
+
+I learn by:
+
+```text
+READ DOCUMENTATION
+       ↓
+BUILD SOMETHING
+       ↓
+BREAK IT
+       ↓
+DEBUG IT
+       ↓
+READ THE IMPLEMENTATION
+       ↓
+CHANGE THE DESIGN
+       ↓
+BUILD AGAIN
+```
+
+Linux, networking, Python, security and architecture became connected through this process.
+
+The result is not a claim of knowing everything.
+
+It is an ability to **enter a technical problem, investigate it, build around it and keep learning while solving it.**
+
+---
+
+# `14` — WHAT I'M LOOKING FOR
+
+I'm interested in opportunities where I can contribute through practical technical work in areas such as:
+
+`Python Development`
+`Automation`
+`Web Scraping / Data Collection`
+`IT Support`
+`Linux / Systems`
+`Networking / NOC`
+`Infrastructure`
+`Cybersecurity / Security Operations`
+`QA / Technical Engineering`
+`Junior Engineering Roles`
+
+I'm particularly interested in environments where **real technical problems matter more than a perfect list of technologies.**
+
+---
+
+# `15` — BEYOND THE RESUME
+
+The repositories are the deeper version of this document.
+
+They contain the implementation, experiments, architecture decisions, mistakes, iterations and evidence behind the claims above.
+
+### Start here
+
+**EYE Network Vision**
+→ Network visibility and analysis
+
+**EYE Master**
+→ Modular data discovery architecture
+
+**EYE-scrapper**
+→ The smaller implementation that preceded the larger architecture
+
+**ScriptArcher**
+→ Python automation and technical tooling
+
+**Phoenix**
+→ Binary data and file-format experimentation
+
+---
+
+# `16` — CONTACT
+
+<div align="center">
+
+## MANI KAMRAN
+
+**Python · Automation · Systems · Networking · Security**
+
+Yerevan, Armenia
+
+**Email**
+`m4nikamran@gmail.com`
 
 **GitHub**
 https://github.com/AdolfMacro
@@ -270,15 +716,18 @@ https://github.com/AdolfMacro
 **LinkedIn**
 https://www.linkedin.com/in/manikamran/
 
-**Email**
-[m4nikamran@gmail.com](mailto:m4nikamran@gmail.com)
+---
+
+### MACROPINIX
+
+**Build it. Observe it. Understand it. Improve it.**
+
+</div>
 
 ---
 
-<p align="center">
+<div align="center">
 
-### `BUILD → OBSERVE → UNDERSTAND → IMPROVE`
+`© MANI KAMRAN · MACROPINIX`
 
-**Programming is the process through which understanding becomes something real.**
-
-</p>
+</div>
